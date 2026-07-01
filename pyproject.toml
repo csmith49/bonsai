@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bonsai-notes"
+version = "0.1.0"
+description = "Opinionated AI agent utilities for Obsidian knowledge bases."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Calvin Smith" }]
+dependencies = [
+  "beautifulsoup4",
+  "click",
+  "lxml",
+  "python-frontmatter",
+]
+
+[project.scripts]
+bonsai = "bonsai.cli:cli"
+
+[tool.setuptools]
+packages = ["bonsai", "bonsai.cli"]

@@ -1,0 +1,12 @@
+# Runtime caches created inside vaults
+.pagerank.json
+.mailbox.jsonl
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Local/editor noise
+.DS_Store

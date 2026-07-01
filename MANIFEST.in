@@ -1,0 +1,5 @@
+recursive-include .agents/skills *.md
+recursive-include templates *
+recursive-include scripts *.sh
+include AGENTS.md
+include requirements.txt
